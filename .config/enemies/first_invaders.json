@@ -1,0 +1,17 @@
+"width":	"10px",
+"height":	"10px",
+"sprite":	"./sprite.png",
+"speed":	"1px/s",
+"lives":	"1",
+"bullet": {
+	"width":		"2px",
+	"height":		"2px",
+	"sprite":		"./bullet.png",
+	"speed":		"5px/s",
+	"direction":	"down"
+},
+"sounds": {
+	"hit":		"./sounds/first_invaders_hit.wav",
+	"die":		"./sounds/first_invaders_die.wav",
+	"shoot":	"./sounds/first_invaders_shoot.wav"
+}
