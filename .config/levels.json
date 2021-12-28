@@ -1,5 +1,0 @@
-"level1" : {
-	"background": "./sprites/firstInvasion.png",
-	"soundtrack": "./soundtracks/invasion.mp3",
-	"enemies": {"enemies/first_invaders.json" : 10}
-}
