@@ -11,12 +11,12 @@ function love.load()
 	screen.height = love.graphics.getHeight()
 	-- end test vars
 
-	game.load_config()
-
-
+	game_loaded = game.load_config()
 end
 
 function love.update(dt)
+	if game_loaded == false then return end
+
 	if test == true then
 		game.levels["level1"].soundtrack:play()
 		test = false

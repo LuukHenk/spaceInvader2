@@ -2,11 +2,11 @@
 	"level1": {
 		"background_path": "sprites/firstInvasion.png",
 		"soundtrack_path": "soundtracks/invasion.mp3",
-		"enemies": {"enemies/first_invaders.json" : 10}
+		"enemies": {"first_invaders" : 10}
 	},
 	"level2": {
 		"background_path": "sprites/firstInvasion.png",
 		"soundtrack_path": "soundtracks/invasion.mp3",
-		"enemies": {"enemies/first_invaders.json" : 20}
+		"enemies": {"first_invaders" : 20}
 	}
 }
