@@ -1,13 +1,15 @@
-local constructor = require "lib/constructor"
-
+local level_constructor = require "lib/level_constructor"
 local game = {}
 game.levels = {}
 game.player = {}
 game.config_path = "."
 
 function game.load_config()
-	local json_level_structures = game.config_path .. "levels.json"
-	game.levels = constructor.construct_game_levels(json_level_structures)
+	level_constructor.config_path = game.config_path
+	level_constructor.setup()
+	game.levels = level_constructor.construct()
+
 	local player_config = game.config_path .. "player.json"
+	-- local enemy_types = game.config_path .. "enemy_types.json"
 end
 return game
